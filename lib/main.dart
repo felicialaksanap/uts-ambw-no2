@@ -221,11 +221,14 @@ class MyApp extends StatelessWidget {
                 ),
               ),
 
-
+              // DETAIL LAST SEEN
               Padding(
                 padding: const EdgeInsets.only(top: 8.0),
                 child: Container(
-                  color: Colors.purple[100],
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.all(const Radius.circular(8)),
+                    color: Colors.purple[100],
+                    ),
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     children: [
@@ -260,7 +263,10 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 8.0),
                 child: Container(
-                  color: Colors.purple[100],
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.all(const Radius.circular(8)),
+                    color: Colors.purple[100],
+                    ),
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     children: [
@@ -295,7 +301,10 @@ class MyApp extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 8.0),
                 child: Container(
-                  color: Colors.purple[100],
+                  decoration: BoxDecoration(
+                    borderRadius: const BorderRadius.all(const Radius.circular(8)),
+                    color: Colors.purple[100],
+                    ),
                   padding: const EdgeInsets.all(8.0),
                   child: Row(
                     children: [
