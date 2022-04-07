@@ -116,7 +116,7 @@ class MyApp extends StatelessWidget {
                               SizedBox(width: 8.0),
                               Text("27 Mins",style: TextStyle(fontSize: 12.0, color: Colors.grey),),
                             ],
-                          )
+                          ),
                         ],
                       ),
                     ),
@@ -320,6 +320,39 @@ class MyApp extends StatelessWidget {
                       Column(
                         children: const[
                           Icon(Icons.play_circle),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Container(
+                color: Colors.grey[100],
+                padding: const EdgeInsets.only(top: 16.0),
+                child: Padding(
+                  padding: const EdgeInsets.all(32.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Column(
+                        children: const[
+                          Icon(Icons.home, color: Colors.blue),
+                          Text("Home", style: TextStyle(color: Colors.blue, fontSize: 18.0)),
+                        ],
+                      ),
+
+                      Column(
+                        children: const[
+                          Icon(Icons.menu_book, color: Color.fromARGB(255, 106, 106, 106)),
+                          Text("Explore", style: TextStyle(color: Color.fromARGB(255, 106, 106, 106))),
+                        ],
+                      ),
+
+                      Column(
+                        children: const[
+                          Icon(Icons.message, color: Color.fromARGB(255, 106, 106, 106)),
+                          Text("Chat", style: TextStyle(color: Color.fromARGB(255, 106, 106, 106))),
                         ],
                       ),
                     ],
