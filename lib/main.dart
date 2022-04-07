@@ -246,7 +246,7 @@ class MyApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const[
                             Text("Basics of Designing",style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),),
-                            Text("1 horur 25 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
+                            Text("1 hour, 25 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
                           ],
                         ),
                       ),
@@ -284,7 +284,7 @@ class MyApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const[
                             Text("Human Respiratory System",style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),),
-                            Text("4 horur 10 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
+                            Text("4 hour, 10 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
                           ],
                         ),
                       ),
@@ -322,7 +322,7 @@ class MyApp extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const[
                             Text("Integration & Differentiation",style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),),
-                            Text("2 horur 37 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
+                            Text("2 hour, 37 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
                           ],
                         ),
                       ),
