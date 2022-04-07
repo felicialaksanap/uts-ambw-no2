@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
           padding: EdgeInsets.all(12),
           child: Column(
             children: [
+              // Popular Courses
               Row(
                 children: const[
                   Text(
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
                 ],
               ),
 
+              // ICON POPUAR COURSES
               Padding(
                 padding: const EdgeInsets.only(top: 16.0),
                 child: Row(
@@ -72,6 +74,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
 
+              // CONTINUE LEARNING TEXT
               Padding(
                 padding: const EdgeInsets.only(top: 16.0),
                 child: Row(
@@ -84,6 +87,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
 
+              // CONTINUE LEARNING DETAIL
               Padding(
                 padding: const EdgeInsets.only(top: 16.0),
                 child: Row(
@@ -201,6 +205,125 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+              ),
+
+              // LAST SEEN COURSES TEXT
+              Padding(
+                padding: const EdgeInsets.only(top: 16.0),
+                child: Row(
+                  children: const[
+                    Text(
+                      "Last Seen Courses : ",
+                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
+                    ),
+                  ],
+                ),
+              ),
+
+
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  color: Colors.purple[100],
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(right: 8.0),
+                        child: Column(
+                          children: const[
+                            Icon(Icons.design_services),
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right: 164.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const[
+                            Text("Basics of Designing",style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),),
+                            Text("1 horur 25 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
+                          ],
+                        ),
+                      ),
+                      Column(
+                        children: const[
+                          Icon(Icons.play_circle),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  color: Colors.purple[100],
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(right: 8.0),
+                        child: Column(
+                          children: const[
+                            Icon(Icons.book),
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right: 125.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const[
+                            Text("Human Respiratory System",style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),),
+                            Text("4 horur 10 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
+                          ],
+                        ),
+                      ),
+                      Column(
+                        children: const[
+                          Icon(Icons.play_circle),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+
+              Padding(
+                padding: const EdgeInsets.only(top: 8.0),
+                child: Container(
+                  color: Colors.purple[100],
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(right: 8.0),
+                        child: Column(
+                          children: const[
+                            Icon(Icons.library_books),
+                          ],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(right: 123.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: const[
+                            Text("Integration & Differentiation",style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.bold),),
+                            Text("2 horur 37 mins",style: TextStyle(fontSize: 12.0, color: Colors.grey, fontWeight: FontWeight.bold),),
+                          ],
+                        ),
+                      ),
+                      Column(
+                        children: const[
+                          Icon(Icons.play_circle),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
               ),
 
